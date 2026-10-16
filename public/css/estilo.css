@@ -272,3 +272,23 @@ h1 {
 font-size: 1.5rem;
 }
 }
+
+.botao-secundario {
+    background: transparent; 
+    border: 2px solid var(--cor-principal);
+}
+
+.ativo {
+    background: var(--cor-principal-escura);
+}
+
+@media (prefers-color-scheme: dark){
+    :root {
+        --cor-principal: #0369a1;
+        --cor-principal-escura: #075985;
+        --cor-destaque: #22d3ee;
+        --cor-fundo: #0f172a;
+        --cor-cartao: #1e293b;
+        --cor-texto: #f8fafc;
+    }
+}
